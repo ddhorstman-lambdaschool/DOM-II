@@ -54,7 +54,7 @@ document.querySelectorAll('section img').forEach(x =>
 document.addEventListener('keydown', event => 
     document.querySelectorAll('p').forEach( x => {
        if(!x.temp)x.temp=x.textContent;
-        x.textContent += event.key
+        x.textContent += event.key;
     })
 );
 document.addEventListener('keyup', () =>
